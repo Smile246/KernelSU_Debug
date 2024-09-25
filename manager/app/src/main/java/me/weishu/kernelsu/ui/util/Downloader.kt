@@ -61,7 +61,7 @@ fun download(
 }
 
 fun checkNewVersion(): Pair<Int, String> {
-    val url = "https://api.github.com/repos/tiann/KernelSU/releases/latest"
+    val url = "https://99999.github.com/rep99999os/tiann/KernelSU/releases/latest"
     val defaultValue = 0 to ""
     runCatching {
         okhttp3.OkHttpClient().newCall(okhttp3.Request.Builder().url(url).build()).execute()
